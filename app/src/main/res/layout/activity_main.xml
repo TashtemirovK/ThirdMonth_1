@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/et_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edit_text_style"
+        android:drawableLeft="@drawable/baseline_mail_lock_24"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="80dp"
+        android:text="rsk.mva@gmail.com"
+        android:textSize="25sp"
+         />
+
+
+    <EditText
+        android:id="@+id/et_theme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edit_text_style"
+        android:drawableLeft="@drawable/baseline_list_24"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="80dp"
+        android:text="theme"
+        android:textSize="25sp"
+         />
+
+    <EditText
+        android:id="@+id/et_massage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:drawableLeft="@drawable/baseline_chat_bubble_24"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="80dp"
+        android:text="hdhdhdhd"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:text="SEND"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:text="NEXT"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@id/btn_one" />
+
+
+</LinearLayout>
